@@ -1,0 +1,3 @@
+﻿id,published,title,summary_cn,arxiv_url,pdf_url,primary_category,enrichment_status
+2606.26021v1,2026-06-24T16:42:21+00:00,Privacy Vulnerabilities of Attention Layers in Tabular Foundation Models and Protection of High-Risk Queries,,http://arxiv.org/abs/2606.26021v1,https://arxiv.org/pdf/2606.26021v1,cs.CR,pending: DEEPSEEK_API_KEY is not set and enrichment.api_key is empty
+2606.25991v1,2026-06-24T16:04:47+00:00,Capturing Nuclear Quantum Effects in Hydrogen Diffusion through MoS2 via Machine-Learning-Enhanced Path-Integral Simulations,,http://arxiv.org/abs/2606.25991v1,https://arxiv.org/pdf/2606.25991v1,cond-mat.mtrl-sci,pending: DEEPSEEK_API_KEY is not set and enrichment.api_key is empty

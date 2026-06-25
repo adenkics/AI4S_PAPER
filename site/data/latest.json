@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "mode": "local",
+    "generated_at": "2026-06-25T14:47:25.309424+00:00",
+    "new_count": 2,
+    "total_count": 2,
+    "markdown_path": "arxiv\\2026-06-25\\文章内容.md"
+  },
+  "papers": [
+    {
+      "id": "2606.26021v1",
+      "arxiv_url": "http://arxiv.org/abs/2606.26021v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26021v1",
+      "title": "Privacy Vulnerabilities of Attention Layers in Tabular Foundation Models and Protection of High-Risk Queries",
+      "abstract": "Tabular foundation models are commonly assumed to present limited privacy concerns as they are often pre-trained on large collections of synthetic data. However, these models leverage in-context learning, where sensitive records may be provided directly at inference time as labelled context examples. In this paper, we demonstrate that predictions generated via the attention mechanism leak sufficient information to enable effective Membership Inference Attacks (MIAs). To highlight this vulnerability, we propose AMIA (Attention-based Membership Inference Attack), a shadow-model-free attack that exploits the concentration of transformer attention patterns. Our results show that attention mechanisms reveal strong membership signals, which exceed classical confidence-based attacks, achieving an average gain of 7.7\\%, specially in low false-positive regimes. To mitigate this risk, we introduce an inference-time defence inspired by $k$-anonymity principles. This approach reduces the uniqueness of context-key representations without introducing random noise or retraining the model. By targeting only high-risk queries identified through AMIA scores, the defence substantially reduces membership leakage of this attack by an average of 50\\% and 25\\% against confidence-based attacks, while preserving predictive utility with only 3.9\\% performance degradation. Beyond showing that context examples are vulnerable, we further demonstrate that fine-tuning introduces an additional source of privacy risk. In particular, samples whose prediction confidence increases after fine-tuning become more susceptible to MIAs, indicating that fine-tuning can amplify memorisation and expose sensitive training information through confidence shifts.",
+      "published": "2026-06-24T16:42:21+00:00",
+      "updated": "2026-06-24T16:42:21+00:00",
+      "authors": [
+        {
+          "name": "Tânia Carvalho",
+          "affiliation": ""
+        },
+        {
+          "name": "Maxime Cordy",
+          "affiliation": ""
+        }
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CR",
+      "author_affiliations": [
+        {
+          "author": "Tânia Carvalho",
+          "affiliation_cn": "待补全"
+        },
+        {
+          "author": "Maxime Cordy",
+          "affiliation_cn": "待补全"
+        }
+      ],
+      "enrichment_status": "pending: DEEPSEEK_API_KEY is not set and enrichment.api_key is empty"
+    },
+    {
+      "id": "2606.25991v1",
+      "arxiv_url": "http://arxiv.org/abs/2606.25991v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25991v1",
+      "title": "Capturing Nuclear Quantum Effects in Hydrogen Diffusion through MoS2 via Machine-Learning-Enhanced Path-Integral Simulations",
+      "abstract": "Hydrogen transport through layered two-dimensional (2D) materials is central to technologies such as hydrogen storage, fuel cells, and isotope separation. Among these materials, MoS2 exhibits tunable interlayer diffusion properties, whose accurate theoretical description requires accounting for nuclear quantum effects (NQEs), including zero-point motion and tunneling. Here, we present a machine-learning-enhanced atomistic study of hydrogen and deuterium diffusion in layered MoS2 based on interatomic potentials trained on r2SCAN+rVV10 density-functional-theory data. Combining well-tempered metadynamics with path-integral molecular dynamics, we investigate diffusion across multiple MoS2 polytypes and twisted bilayer structures while explicitly incorporating NQEs. Our simulations show that NQEs substantially lower free-energy barriers for hydrogen diffusion at 300 K, significantly increasing the hydrogen self-diffusion coefficient compared to classical nuclei simulations. We further identify a pronounced kinetic isotope effect, with a 35 meV difference between hydrogen and deuterium quantum free-energy barriers. In twisted bilayer MoS2, hydrogen transport exhibits strong spatial variations governed by the local stacking environments within the moiré superlattices. These results highlight the critical role of NQEs in hydrogen transport through layered materials and provide atomistic insight intoisotope-selective diffusion in structurally complex 2D systems.",
+      "published": "2026-06-24T16:04:47+00:00",
+      "updated": "2026-06-24T16:04:47+00:00",
+      "authors": [
+        {
+          "name": "Ismail Eren",
+          "affiliation": ""
+        },
+        {
+          "name": "Ege Yigit Erbil",
+          "affiliation": ""
+        },
+        {
+          "name": "Maria-Judith Caisachana-Lozada",
+          "affiliation": ""
+        },
+        {
+          "name": "Hossein Mirhosseini",
+          "affiliation": ""
+        },
+        {
+          "name": "Thomas D. Kühne",
+          "affiliation": ""
+        },
+        {
+          "name": "Agnieszka B. Kuc",
+          "affiliation": ""
+        }
+      ],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "primary_category": "cond-mat.mtrl-sci",
+      "author_affiliations": [
+        {
+          "author": "Ismail Eren",
+          "affiliation_cn": "待补全"
+        },
+        {
+          "author": "Ege Yigit Erbil",
+          "affiliation_cn": "待补全"
+        },
+        {
+          "author": "Maria-Judith Caisachana-Lozada",
+          "affiliation_cn": "待补全"
+        },
+        {
+          "author": "Hossein Mirhosseini",
+          "affiliation_cn": "待补全"
+        },
+        {
+          "author": "Thomas D. Kühne",
+          "affiliation_cn": "待补全"
+        },
+        {
+          "author": "Agnieszka B. Kuc",
+          "affiliation_cn": "待补全"
+        }
+      ],
+      "enrichment_status": "pending: DEEPSEEK_API_KEY is not set and enrichment.api_key is empty"
+    }
+  ]
+}
