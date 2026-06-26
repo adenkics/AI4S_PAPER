@@ -6,7 +6,8 @@
     "total_count": 11,
     "markdown_path": "arxiv\\2026-06-26\\文章内容.md"
   },
-  "papers": [
+  "site_url": "http://127.0.0.1:8765",
+  "new_papers": [
     {
       "id": "2606.27361v1",
       "arxiv_url": "http://arxiv.org/abs/2606.27361v1",
@@ -408,5 +409,6 @@
       ],
       "enrichment_status": "pending: DEEPSEEK_API_KEY is not set and enrichment.api_key is empty"
     }
-  ]
+  ],
+  "fetched_count": 9
 }
