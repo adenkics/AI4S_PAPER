@@ -1,13 +1,24 @@
 {
   "meta": {
     "mode": "local",
-    "generated_at": "2026-06-26T13:42:51.497315+00:00",
+    "generated_at": "2026-06-26T14:33:08.995362+00:00",
     "new_count": 0,
     "total_count": 11,
+    "chemrxiv_new_count": 0,
+    "chemrxiv_total_count": 0,
     "markdown_preserved": true,
     "markdown_path": "arxiv\\2026-06-26\\文章内容.md"
   },
   "site_url": "http://127.0.0.1:8765",
   "new_papers": [],
-  "fetched_count": 8
+  "arxiv_new_papers": [],
+  "chemrxiv_new_papers": [],
+  "chemrxiv_topics": {
+    "polymer": [],
+    "small-organic-molecules": [],
+    "chemical-reaction": [],
+    "organic-chemistry": []
+  },
+  "fetched_count": 8,
+  "chemrxiv_fetched_count": 0
 }
