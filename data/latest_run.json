@@ -1,12 +1,13 @@
 {
   "meta": {
     "mode": "local",
-    "generated_at": "2026-06-26T13:23:19.176240+00:00",
+    "generated_at": "2026-06-26T13:42:22.904101+00:00",
     "new_count": 0,
     "total_count": 11,
+    "markdown_preserved": true,
     "markdown_path": "arxiv\\2026-06-26\\文章内容.md"
   },
   "site_url": "http://127.0.0.1:8765",
   "new_papers": [],
-  "fetched_count": 9
+  "fetched_count": 8
 }
